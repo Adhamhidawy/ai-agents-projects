@@ -1,0 +1,10 @@
+import { EventEmitter } from 'node:events';
+import { Receiver } from './receiver.mjs';
+const bus = new EventEmitter();
+const receiver = new Receiver(bus);
+receiver.connect();
+console.log('listeners before reconnect:', bus.listenerCount('frame'));
+receiver.reconnect();
+console.log('listeners after reconnect:', bus.listenerCount('frame'));
+bus.emit('frame', 'hello');
+console.log('delivered frames:', receiver.frames.length);

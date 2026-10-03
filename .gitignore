@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Claude Code writes these declarations for the installed runtime.
+**/.claude-plugin/types/
+
+# Local session exports may contain machine-specific paths.
+**/fix-loop-evidence.json

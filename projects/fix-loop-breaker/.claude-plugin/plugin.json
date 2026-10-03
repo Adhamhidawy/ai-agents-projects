@@ -1,0 +1,9 @@
+{
+  "name": "fix-loop-breaker",
+  "version": "0.1.0",
+  "description": "Expose repeated failures of an explicitly supported test command.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Adham \u2014 built with Codex"
+  }
+}
