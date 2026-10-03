@@ -36,13 +36,3 @@ ai-agents-projects/
         ├── tests/
         └── demo/
 ```
-
-## Add a future article project
-
-1. Create a descriptive folder under `projects/`.
-2. Use the [project README template](docs/project-readme-template.md) to document setup, usage, verification and limits.
-3. Keep that project's code, tests and demo together. Keep generated files and local session exports out of commits.
-4. Run its documented checks and record the versions and observed results.
-5. Add it to the project table above. Add the article's public link to its README when the article is published.
-
-The template provides a consistent starting point. Each project keeps the structure and checks that fit its own tools.
